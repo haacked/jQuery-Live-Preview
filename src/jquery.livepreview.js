@@ -31,7 +31,7 @@
 
             textarea.reloadPreview = function() {
                 var previewString = this.val();
-                if (previewString.length > 0 && previewString.indexOf('<') > -1) {
+                if (previewString.length > 0) {
                     previewString = this.htmlUnencode(previewString);
                     previewString = previewString.replace(opts.paraRegExp, "<p>$1</p><p>$2</p>");
                     previewString = previewString.replace(opts.lineBreakRegExp, "$1<br />$2");

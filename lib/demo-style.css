@@ -30,7 +30,7 @@ textarea.source
 
 div.preview  {
 	width: 400px;
-	height: 200px;
+	min-height: 200px;
 	border: solid 1px #000;
 	background-color: #ffffec;
 	padding: 5px;
